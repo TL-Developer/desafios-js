@@ -1,3 +1,10 @@
+# Maruta Challange
+
+This challange was sent ny Maruta. It consist of a given array of nested object which should be flatted into one only array of those objects. 
+
+For example, the array bellow: 
+
+```
 const a = [{
         id: '1',
         nome: 'teste1',
@@ -45,5 +52,22 @@ const a = [{
         ]
     }
 ]
+```
+should result like this: 
 
-export default a;
+```
+[
+    { 
+        id: '1',
+        nome: 'teste1'
+    },
+    { 
+        id: '11',
+        nome: 'teste11'
+    }
+    { 
+        id: '111',
+        nome: 'teste111'
+    }, ...
+]
+```
