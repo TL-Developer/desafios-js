@@ -1,6 +1,6 @@
 # Maruta Challange
 
-This challange was sent ny Maruta. It consist of a given array of nested object which should be flatted into one only array of those objects. 
+This challange was sent by Maruta. It consists of a given array of nested object which should be flatted into only one array of those objects.
 
 For example, the array bellow: 
 
